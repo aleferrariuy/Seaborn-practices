@@ -2,7 +2,9 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-ruta_archivo_df = 'C:\\Users\\agfep\\Documents\\GitHub\\Seaborn-practices\\code\\datasets\\demo.csv' 
+# Testing path
+# ruta_archivo_df = 'C:\\Users\\agfep\\Documents\\GitHub\\Seaborn-practices\\code\\datasets\\demo.csv' 
+ruta_archivo_df = './datasets/demo.csv'
 
 try:
     df = pd.read_csv(ruta_archivo_df)
